@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  width: 1200px;
+  margin: auto;
+  background-color: #ebebeb;
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  padding: 20px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 45px;
+  width: 160px;
+}
+
+.header-search-input {
+  display: block;
+  width: 420px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+
+.header-search-input:focus {
+  border-radius: 20px !important;
+}
+
+.top-bar-left {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-right_user {
+  display: flex;
+  list-style: none;
+}
+
+.top-bar-right_user li {
+  margin-right: 10px;
+}
+
+.search {
+  display: flex;
+  position: relative;
+}
+
+.search-icon {
+  display: block;
+  position: absolute;
+  left: 450px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.card-product {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.card-product-notice {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+}
+
+.card-product-notice span {
+  font-size: 15px;
+}
+
+.card-product-notice-time {
+  background-color: #56ccf2;
+  border-radius: 5px;
+  padding: 2px 6px 3px;
+  margin-right: 5px;
+}
+
+.card-product-notice-state {
+  background-color: #ff2853;
+  border-radius: 5px;
+  padding: 2px 6px 3px;
+}
+
+.card-product-title {
+  margin: 5px;
+  font-weight: 500;
+}
+
+.image-top {
+  border-radius: 5px;
+  /* box-shadow: 5px 10px; */
+  width: 180px;
+  height: 240px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.pagination-list {
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  margin: 10px;
+  background-color: #56ccf2;
+  border-radius: 5px;
+  color: white;
+}
+
+.grid-column-10 {
+  width: 66.6667%;
+}
+
+.grid-column-2 {
+  width: 33.3333%;
+}
+
+.grid-column-8-2 {
+  width: 25%;
+}
